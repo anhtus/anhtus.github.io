@@ -1,33 +1,37 @@
 # Site settings
-email: 
+email: anhtulk2505@gmail.com
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
-url: ""
-twitter_username: 
-default_img: 
+title: Le Hoang Anh Tu - Blog
+description: My personal blog
+url: "http://anhtus.github.io"
+twitter_username: anhtu2505 
+default_img: https://1.bp.blogspot.com/-8d6IJVBGiIw/VGIiRTXFxXI/AAAAAAAAM_w/Ftlj6hpCto8/s0/featured-image.jpg
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Anh Tu
+profile_img: http://i.imgur.com/zvKlNvR.jpg
+profile: My name is Le Hoang Anh Tu, a front-end developer. I like web design and blogging.
 social:
-  github: 
+  github: https://github.com/anhtus
+  facebook: https://www.facebook.com/kudo.2505
+  google-plus: https://plus.google.com/107458005734150435400
+  instagram: https://instagram.com/kinichi2505
+  soundcloud: https://soundcloud.com/kudo2505
 
 # Build settings
 include: ["_categories"]
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+exclude: ["_screenshots"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 # Sass
 sass:
   style: compressed
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, jekyll-admin]
